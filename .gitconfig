@@ -1,7 +1,6 @@
 [user]
 	email = ken@morsemicro.com
 	name = Ken Zhang
-
 [alias]
     st = status
     ci = commit
@@ -22,3 +21,6 @@
 
 [pull]
 	rebase = true
+
+[core]
+    excludesfile = ~/.gitignore
