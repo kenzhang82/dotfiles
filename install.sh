@@ -16,7 +16,7 @@ homedir=$1
 dotfiledir=${homedir}/dotfiles
 
 # list of files/folders to symlink in ${homedir}
-files="bash_profile bashrc bash_prompt aliases gitconfig gitignore"
+files="bash_profile bashrc bash_prompt aliases gitconfig gitignore vimrc"
 
 # change to the dotfiles directory
 echo "Changing to the ${dotfiledir} directory"
@@ -31,3 +31,6 @@ done
 
 # Download Git Auto-Completion
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > ${homedir}/.git-completion.bash
+
+# Download Vim Plug
+curl -fLo ${homedir}/.vim/autoload/plug.vim --create-dirs "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
