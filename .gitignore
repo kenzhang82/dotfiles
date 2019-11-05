@@ -1,8 +1,11 @@
-# Mac
-.DS_Store
 
-# Jetbrains
-.idea/
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
 
 # Vim
 *~

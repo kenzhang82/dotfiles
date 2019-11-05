@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-############################
-# This script creates symlinks from the home directory to any desired dotfiles in ${homedir}/dotfiles
-# And also installs Homebrew Packages
-# And sets Sublime preferences
-############################
+
+#######################################################
+# This script creates symlinks from the home directory 
+# to any desired dotfiles in ${homedir}/dotfiles
+#######################################################
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: install.sh <home_directory>"
@@ -16,7 +16,7 @@ homedir=$1
 dotfiledir=${homedir}/dotfiles
 
 # list of files/folders to symlink in ${homedir}
-files="bash_profile bashrc bash_prompt aliases gitconfig gitignore vimrc"
+files="aliases bash_profile bash_prompt bashrc exports functions gitconfig gitignore vimrc"
 
 # change to the dotfiles directory
 echo "Changing to the ${dotfiledir} directory"
