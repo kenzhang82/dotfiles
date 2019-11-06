@@ -101,7 +101,7 @@
 
 	added = yellow
 	changed = green
-	untracked = cyan
+	untracked = red
 
 [diff]
 
