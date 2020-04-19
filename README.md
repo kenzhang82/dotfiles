@@ -8,5 +8,6 @@ This repository contains all my dotfiles for Mac OSX.
 - zsh (installed in Mac by default)
 - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Dracula Theme](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/schemes)
+- [Nerd Font](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k.git)
 - [colorls](https://github.com/athityakumar/colorls)
