@@ -6,6 +6,8 @@ echo "Installing Brew..."
 
 echo "Installing Brew Packages..."
 brew install python
+brew install icarus-verilog
+brew install verilator
 
 echo "Installing Mac OSX Applications..."
 brew cask install google-chrome
@@ -19,6 +21,7 @@ brew cask install zoomus
 brew cask install sizeup
 brew cask install x2goclient
 brew cask install dropbox
+brew cask install gtkwave
 
 # Install Fonts
 brew tap homebrew/cask-fonts
