@@ -5,6 +5,7 @@
 [alias]
     # verbose git log
     lola = log --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --graph --abbrev-commit
+    co = checkout
     st = status
     df = diff
     # Switch to a branch, creating it if necessary
