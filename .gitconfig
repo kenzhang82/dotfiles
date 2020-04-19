@@ -1,0 +1,19 @@
+######################
+# Useful git aliases
+######################
+
+[alias]
+    # verbose git log
+    lola = log --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --graph --abbrev-commit
+    st = status
+    df = diff
+    # Switch to a branch, creating it if necessary
+	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+
+[pull]
+	rebase = true
+
+[user]
+    email = ken.zhang028@gmail.com
+    name = Ken Zhang
+
