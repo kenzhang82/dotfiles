@@ -103,3 +103,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Use color LS
 source $(dirname $(gem which colorls))/tab_complete.sh
+
+alias ll='colorls -lA --sd'
