@@ -9,7 +9,10 @@
     st = status
     df = diff
     # Switch to a branch, creating it if necessary
-	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+    go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+
+[pager]
+	branch = false
 
 [pull]
 	rebase = true
@@ -17,4 +20,3 @@
 [user]
     email = ken.zhang028@gmail.com
     name = Ken Zhang
-
